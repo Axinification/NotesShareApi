@@ -11,6 +11,7 @@ using System.Web.Http;
 
 namespace NotesShareApi.Controllers
 {
+    [Authorize]
     public class NotesController : ApiController
     {
         private readonly ApplicationDbContext _dbContext;
