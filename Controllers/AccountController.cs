@@ -381,7 +381,6 @@ namespace NotesShareApi.Controllers
             var userDetails = new UserDetailsViewModel
             {
                 Username = user.UserName,
-                Description = user.Description,
             };
             return Ok(userDetails);
         }
